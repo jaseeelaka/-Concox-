@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style type="text/css">
+
+      .button { transition-duration: 0.4s ;}
+      .button1:hover { background-color: #4CAF50; color: white; }
+            .button2:hover {background-color: #FF4500; color: white;}
+            .button3:hover { background-color: #008CBA; color: white;}
+    </style>
+
+    <meta charset="utf-8">
+    <title>Web interface of Concox simulator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <div class="jumbotron" >
+      <center>
+      <form action="/data" method="post">
+      <h1 id="g1"> Concox Simulator</h1><br>
+      <button class="button button1" type="submit" name="login" > Login</button>
+      <button class="button button2" type="submit" name="heartbeat"> Heartbeat</button>
+      <button class="button button3" type="submit" name="gps"> GPS</button>
+    </form>
+    </center>
+
+    </div>
+
+  </body>
+</html>
